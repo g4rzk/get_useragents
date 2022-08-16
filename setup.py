@@ -12,7 +12,7 @@ setup(
   long_description = long_description,
   author = "Angga Kurniawan",
   author_email = "g4rzkurniawan@gmail.com",
-  url = "https://github.com/g4rzk/get-useragents",
+  url = "https://github.com/g4rzk/get_useragents",
   download_url = "https://github.com/g4rzk/get_useragents/archive/get_useragents_v01.tar.gz", 
   keywords = ["get useragents", "get-useragents", "useragent random"], 
   install_requires = [
