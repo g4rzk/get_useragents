@@ -31,11 +31,5 @@ print(random_ua)
 ### License
 The MIT License (MIT). Please see [License File](https://github.com/g4rzk/get_useragents/blob/main/LICENSE) for more information.
 
-## Stats
-[![Downloads](https://static.pepy.tech/personalized-badge/get-useragents?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/get-useragents)
-
 ## User Agent Source
 special thanks to [useragents.io](https://useragents.io) for providing real user agents.
-
-## Report Bug or Error
-contact me on mail [g4rzk](mailto:g4rzkurniawan@gmail.com) thanks.

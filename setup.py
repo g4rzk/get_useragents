@@ -1,12 +1,12 @@
 from distutils.core import setup, Extension
 
-with open("README", "r", encoding="utf-8") as fh:
+with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
   name = "get_useragents",
   packages = ["get_useragents"],
-  version = "0.5",
+  version = "0.6",
   license ="MIT",
   description = "This library is used to make it easier for developers or users to get random user agents from https://useragents.io.",
   long_description = long_description,
