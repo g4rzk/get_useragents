@@ -6,18 +6,25 @@ This library is used to make it easier for developers or users to get random use
 Installation
 ~~~~~~~
 You can install get-useragents by running the following command:
-.. code:: sh
-   pip install get-useragents
 
-Or you can download direct from Github and install it manually.
+```
+pip install get-useragents
+```
+Or you can download direct from [Github](https://github.com/g4rzk/get_useragents/archive/get_useragents.tar.gz) and install it manually.
 
 Usage
 ~~~~~
-.. code:: python
-   from get_useragents import *
+```python
+from get_useragents import *
 
-   ua = UserAgents()
-   ua.GetUserAgent()
+# you can change the limit
+ua = UserAgents(limit=100)
+
+# fungsi untuk mendapatkan semua ua sesuai limit dari GetListUserAgents
+user_agents = ua.GetUserAgents()
+# function for get random ua from GetListUserAgents
+random_ua = ua.RandomUserAgents()
+```
 
 Function
 ~~~~~~~
@@ -26,7 +33,7 @@ Function
 
 License
 ~~~~~~
-The MIT License (MIT). Please see License File for more information.
+The MIT License (MIT). Please see [License File](https://github.com/g4rzk/get_useragents/blob/main/LICENSE) for more information.
 
 User Agent Source
 ~~~~~~~~~~~~~

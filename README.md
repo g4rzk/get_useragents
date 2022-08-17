@@ -1,4 +1,4 @@
-# GET-USERAGENTS
+## GET-USERAGENTS
 
 This library is used to make it easier for developers or users to get random user agents from [https://useragents.io.](https://useragents.io)
 
@@ -13,8 +13,15 @@ Or you can download direct from [Github](https://github.com/g4rzk/get_useragents
 ```python
 from get_useragents import *
 
-ua = UserAgents()
-ua.GetUserAgent()
+# you can change the limit
+ua = UserAgents(limit=100)
+
+# fungsi untuk mendapatkan semua ua sesuai limit dari GetListUserAgents
+user_agents = ua.GetUserAgents()
+# function for get random ua from GetListUserAgents
+random_ua = ua.RandomUserAgents()
+
+print(random_ua)
 ```
 
 ### Function
