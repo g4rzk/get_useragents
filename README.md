@@ -33,3 +33,6 @@ The MIT License (MIT). Please see [License File](https://github.com/g4rzk/get_us
 
 ## User Agent Source
 special thanks to [useragents.io](https://useragents.io) for providing real user agents.
+
+## Report Bug or Error
+contact me on mail [g4rzk](mailto:g4rzkurniawan@gmail.com) thanks.
