@@ -28,6 +28,9 @@ print(random_ua)
 1. Get more than 100+ user agents 
 2. Get a random user agent
 
+## Stats
+[![Downloads](https://static.pepy.tech/personalized-badge/get-useragents?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/get-useragents)
+
 ### License
 The MIT License (MIT). Please see [License File](https://github.com/g4rzk/get_useragents/blob/main/LICENSE) for more information.
 
