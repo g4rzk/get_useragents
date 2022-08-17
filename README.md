@@ -16,7 +16,7 @@ from get_useragents import *
 # you can change the limit
 ua = UserAgents(limit=100)
 
-# fungsi untuk mendapatkan semua ua sesuai limit dari GetListUserAgents
+# function to get all ua as per limit from GetListUserAgents
 user_agents = ua.GetUserAgents()
 # function for get random ua from GetListUserAgents
 random_ua = ua.RandomUserAgents()
@@ -30,7 +30,6 @@ print(random_ua)
 
 ### License
 The MIT License (MIT). Please see [License File](https://github.com/g4rzk/get_useragents/blob/main/LICENSE) for more information.
-
 
 ## Stats
 [![Downloads](https://static.pepy.tech/personalized-badge/get-useragents?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/get-useragents)
