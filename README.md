@@ -30,7 +30,8 @@ print(random_ua)
 
 ## Change Log
 - **Version 0.6**
-  > **Fixed Index Error**
+  - Fix Index Error
+  - Re-upload
 
 ## Stats
 [![Downloads](https://static.pepy.tech/personalized-badge/get-useragents?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/get-useragents)
