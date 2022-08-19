@@ -28,16 +28,16 @@ print(random_ua)
 1. Get more than 100+ user agents 
 2. Get a random user agent
 
-## Change Log
+### Change Log
 - **Version 0.6**
   - Fix Index Error
   - Re-upload
 
-## Stats
+### Stats
 [![Downloads](https://static.pepy.tech/personalized-badge/get-useragents?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/get-useragents)
 
 ### License
 The MIT License (MIT). Please see [License File](https://github.com/g4rzk/get_useragents/blob/main/LICENSE) for more information.
 
-## User Agent Source
+### User Agent Source
 special thanks to [useragents.io](https://useragents.io) for providing real user agents.
