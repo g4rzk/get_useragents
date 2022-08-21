@@ -28,6 +28,26 @@ print(random_ua)
 1. Get more than 100+ user agents 
 2. Get a random user agent
 
+### List All Directory
+```
+.get_useragents
+├── LICENSE                                                    
+├── README
+├── README.md
+├── cache                                                       
+│   ├── browser.txt
+│   └── useragents.txt
+├── example
+│   └── test.py
+├── get_useragents
+│   ├── __init__.py
+│   ├── settings.py
+│   └── useragents.py
+├── setup.cfg
+└── setup.py
+```
+This tree is to make it easier for you to see the files in all directories. 
+
 ### Change Log
 - **Version 0.6**
   - Fix Index Error
