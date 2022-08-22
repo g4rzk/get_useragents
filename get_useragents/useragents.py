@@ -1,9 +1,20 @@
 #!/usr/bin/python
 import re
 import random
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 from get_useragents import settings
+
+UA = random.choice(
+	settings.USERAGENTS
+)
+cf = cloudscraper.create_scraper(
+	browser={
+		"browser":"chrome", 
+		"platform":"android", 
+		"desktop": False
+	}
+)
 
 class UserAgents:
 	def __init__(self, limit=None):
@@ -13,10 +24,8 @@ class UserAgents:
 
 	def GetListUserAgents(self):
 		try:
-			get = requests.get(
-				self.url, 
-				headers={"user-agent": settings.USER_AGENT}, 
-				timeout=5
+			get = cf.get(
+				self.url
 			).text
 			parser = BeautifulSoup(get, "html.parser")
 			for x in parser.find_all("td"):
@@ -26,13 +35,7 @@ class UserAgents:
 			pass
 
 	def GetUserAgents(self):
-		try:
-			return "\n".join(self.user_agents)
-		except IndexError:
-			exit("* Error detected spam please turn on airplane mode.")
+		return "\n".join(self.user_agents)
 
 	def RandomUserAgents(self):
-		try:
-			return random.choice(self.user_agents)
-		except IndexError:
-			exit("* Error detected spam please turn on airplane mode.")
+		return random.choice(self.user_agents)
