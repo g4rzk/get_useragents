@@ -11,10 +11,10 @@ Or you can download direct from [Github](https://github.com/g4rzk/get_useragents
 
 ### Usage
 ```python
-from get_useragents import *
+from get_useragents import useragents 
 
 # you can change the limit
-ua = UserAgents(limit=100)
+ua = useragents.UserAgents(limit=500)
 
 # function to get all ua as per limit from GetListUserAgents
 user_agents = ua.GetUserAgents()
@@ -31,26 +31,30 @@ print(random_ua)
 ### List All Directory
 ```
 .get_useragents
-├── LICENSE                                                    
-├── README
-├── README.md
+├── LICENSE
+├── README.md                                                   
 ├── cache                                                       
 │   ├── browser.txt
-│   └── useragents.txt
-├── example
+│   └── useragents.txt                                          
+├── example                                                     
 │   └── test.py
-├── get_useragents
+├── get_useragents                                            
 │   ├── __init__.py
 │   ├── settings.py
-│   └── useragents.py
+│   └── useragents.py                                           
 ├── setup.cfg
-└── setup.py
+├── setup.py                                                    
+└── ua.py
 ```
 This tree is to make it easier for you to see the files in all directories. 
 
 ### Change Log
 - **Version 0.6**
   - Fix Index Error
+  - Re-upload
+
+- **Version 0.7**
+  - Using cloudscraper (tested)
   - Re-upload
 
 ### Stats

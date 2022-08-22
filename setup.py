@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
   name = "get_useragents",
   packages = ["get_useragents"],
-  version = "0.6",
+  version = "0.7",
   license ="MIT",
   description = "This library is used to make it easier for developers or users to get random user agents from https://useragents.io.",
   long_description = long_description,
@@ -17,8 +17,8 @@ setup(
   download_url = "https://github.com/g4rzk/get_useragents/archive/get_useragents.tar.gz", 
   keywords = ["get_useragents", "get-useragents", "useragent random", "fake-useragent", "user-agent"], 
   install_requires = [
-          "requests",
-          "bs4", 
+          "bs4",
+          "cloudscraper", 
       ],
   classifiers = [
     "Development Status :: 3 - Alpha",
