@@ -1,6 +1,6 @@
 ## GET-USERAGENTS
 
-This library is used to make it easier for developers or users to get random user agents from [https://useragents.io.](https://useragents.io)
+This library is used to make it easier for developers or users to get random user agents
 
 ### Installation
 You can install get-useragents by running the following command:
@@ -11,18 +11,25 @@ Or you can download direct from [Github](https://github.com/g4rzk/get_useragents
 
 ### Usage
 ```python
-from get_useragents import useragents 
+from get_useragents import useragents
 
-# you can change the limit
-ua = useragents.UserAgents(limit=500)
+# you can change string limit '100' to max limit which is '1000'
+# to see available devices, check: https://github.com/g4rzk/get_useragents#list-device
+ua = useragents.Get_UA(device="chrome", limit=100)
 
-# function to get all ua as per limit from GetListUserAgents
-user_agents = ua.GetUserAgents()
-# function for get random ua from GetListUserAgents
+# to get all user agents according to the limit
+all_ua = ua.GetUserAgents()
+# to get a random user agent from limit
 random_ua = ua.RandomUserAgents()
 
 print(random_ua)
 ```
+
+### List Device
+ - Facebook
+ - Chrome
+ - Mozilla
+ - Dekstop
 
 ### Function
 1. Get more than 100+ user agents 
@@ -54,8 +61,12 @@ This tree is to make it easier for you to see the files in all directories.
   - Re-upload
 
 - **Version 0.7**
-  - Using cloudscraper (tested)
+  - Using cloudscraper
   - Re-upload
+
+- **Version 0.8**
+  - New list device user agent
+  - Fixed Bug and Re-Upload
 
 ### Stats
 [![Downloads](https://static.pepy.tech/personalized-badge/get-useragents?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/get-useragents)
