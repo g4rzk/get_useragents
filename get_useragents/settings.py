@@ -1,6 +1,5 @@
 # settings.py
 
-TIMEOUT = 10
 BASE_URL = "https://useragents.io/"
 USERAGENTS = [
 	"Mozilla/5.0 (Linux; Android 8.1.0; SM-C710F) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/78.0.150 Mobile Chrome/72.0.3626.150 Mobile Safari/537.36", 
