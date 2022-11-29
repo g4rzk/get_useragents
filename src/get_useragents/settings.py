@@ -1,1 +1,1 @@
-
+# settings.py__AUTHOR__ = "@g4rzk"__VERSION__ = "0.9"__PACKAGES__ = "get_useragents"__JSON_FILES__ = "get_useragents/data/get_useragents.json"
