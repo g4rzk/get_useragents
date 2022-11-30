@@ -33,20 +33,20 @@ print(random_ua)
 ### List Device
 | List Device  | Total User Agent |
 | ----- | --- |
-| Apple   | 500  |
-| Chrome | 500  |
-| Desktop   | 500  |
-| Facebook | 500  |
-| iOS   | 500  |
-| iPhone | 500  |
-| Linux   | 500  |
-| MiUi | 500  |
-| Mozilla   | 500  |
-| Opera | 500  |
-| Samsung   | 500  |
+| Apple   | 500+  |
+| Chrome | 500+  |
+| Desktop   | 500+  |
+| Facebook | 500+  |
+| iOS   | 500+  |
+| iPhone | 500+  |
+| Linux   | 500+  |
+| MiUi | 500+  |
+| Mozilla   | 500+  |
+| Opera | 500+  |
+| Samsung   | 500+  |
 | Xiaomi | 500  |
-| Yandex   | 500  |
-| Mac OS | 500  |
+| Yandex   | 500+  |
+| Mac OS | 500+  |
 
 ### Function
 1. Get 100+ user agent from existing devices
